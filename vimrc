@@ -182,6 +182,12 @@ Bundle 'brookhong/cscope.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'Raimondi/delimitMate'
 Bundle 'plasticboy/vim-markdown'
+"]]: go to next header
+"[[: go to previous header
+"][: go to next sibling header if any
+"[]: go to previous sibling header if any
+"]c: go to Current header
+"]u: go to parent header (Up)
 Bundle 'vim-scripts/a.vim'
 ":A switches to the header file corresponding to the current file being edited (or vise versa)
 ":AS splits and switches
@@ -197,5 +203,14 @@ Bundle 'vim-scripts/a.vim'
 "<Leader>is switches to the alternate file of file under cursor (e.g. on  <foo.h> switches to foo.cpp)
 "<Leader>ihn cycles through matches
 "Vundle配置必须 开启插件
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'vim-scripts/nerdtree-ack'
+Bundle 'mileszs/ack.vim'
+Bundle 'terryma/vim-expand-region'
+"在括号，引号中自动选择 + 增加范围 _ 减少范围
+Bundle 'tmhedberg/matchit'
+"extend %
+Bundle 'tpope/vim-abolish'
+"imporve search & replace
 filetype plugin indent on
 
