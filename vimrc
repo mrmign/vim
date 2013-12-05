@@ -216,5 +216,7 @@ Bundle 'aperezdc/vim-template'
 let g:email='cloudniw1@gmail.com'
 let g:username = 'Arming lee'
 
+Bundle 'mattn/emmet-vim'
+" <c-y>, 补全
 filetype plugin indent on
 
