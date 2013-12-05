@@ -212,5 +212,9 @@ Bundle 'tmhedberg/matchit'
 "extend %
 Bundle 'tpope/vim-abolish'
 "imporve search & replace
+Bundle 'aperezdc/vim-template'
+let g:email='cloudniw1@gmail.com'
+let g:username = 'Arming lee'
+
 filetype plugin indent on
 
